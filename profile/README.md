@@ -44,9 +44,48 @@ $ ./kth
 
 ## Libraries
 
-![C++](https://kth.cash/images/libraries/cpp.svg)
-
-
 
 [<img src="https://kth.cash/images/libraries/cpp.svg">](https://github.com/k-nuth/node)
+[<img src="https://kth.cash/images/libraries/c.svg">](https://github.com/k-nuth/c-api)
+[<img src="https://kth.cash/images/libraries/csharp.svg">](https://github.com/k-nuth/cs-api)
+[<img src="https://kth.cash/images/libraries/javascript.svg">](https://github.com/k-nuth/js-api)
+[<img src="https://kth.cash/images/libraries/typescript.svg">](https://github.com/k-nuth/js-api)
+[<img src="https://kth.cash/images/libraries/python.svg">](https://github.com/k-nuth/js-api)
+
+## Features
+
+Knuth is characterized by its modular architecture and beautiful code. It has the intention to facilitate adoption and collaboration in the evolution of a diverse ecosystem. We want our code to be interactive, reusable and reliable, easy to read and easy to debug. Some of our features are:
+
+### Development platform
+
+Knuth is a full node implementation, but also a development platform. Its core is written in C++. On top of it, several libraries and modules, written in several programming languages, are provided and can be used as a basis for building applications.
+
+### Build system
+
+Our build system is designed to automatically detect processors’ microarchitecture and optimize the binary generated at build time.
+
+### Processes and industry standards
+
+Knuth has the best processes and standards available. It is written in C++ and uses libraries such as Abseil, Boost, GMP, ICU, among others. In terms of toolchains, Knuth uses GCC, Clang, MSVC, CMake, Conan, clang-tidy, and clang-format.
+
+### Cross-Platform
+
+Knuth is a cross-platform solution. It can be used in any computer architecture and operating system. It only requires a 64-bit machine. Its code can be compiled and natively used on Linux, Windows, macOS, FreeBSD, and others with no fuzz.
+
+### Database modes
+
+Designed to offer a high level of specialization for particular use cases, Knuth node can be initialized under 3 different database modes at installation time: normal, pruned and full-indexed. An orthogonal read-only mode is provided for scaling capabilities.
+
+### Modularization
+
+Knuth is built following a completely modular architecture. Each module is a library that can be used independently or together with other libraries. This adds a neat and readable code organization that follows the single-responsibility principle. Any protocol change can be introduced in Knuth much faster and efficiently.
+
+
+## Donation
+
+Knuth is a community backed project developed. Donations received will be used to subsidize development costs for general maintenance and support of our implementation.
+
+Your contributions are greatly appreciated!
+
+`bitcoincash:qrlgfg2qkj3na2x9k7frvcmv06ljx5xlnuuwx95zfn`
 
