@@ -8,6 +8,12 @@ Knuth is a high performance implementation of the Bitcoin protocol focused on us
 - Developers who want to take their projects to new levels.
 - Newcomers taking their first steps in the blockchain ecosystem.
 
+## Releases
+
+Node executable
+C++ Library
+C Library <a target="_blank" href="https://github.com/k-nuth/c-api/releases">![Github Releases][badge.release]</a>
+
 ## Getting Started
 
 Install and run Knuth is very easy, you must follow these instructions.
