@@ -30,7 +30,8 @@ C++ library
 
 C library <a target="_blank" href="https://github.com/k-nuth/c-api/releases">![Github Releases][badge.release]</a>
 
-C# library <a target="_blank" href="https://github.com/k-nuth/c-api/releases">![Github Releases][badge.release]</a>
+C# library 
+[![Latest Release](https://img.shields.io/nuget/v/kth-bch?logo=nuget&label=release&style=for-the-badge)](https://www.nuget.org/packages/kth-bch)
 
 Javascript/TypeScript libraries <a target="_blank" href="https://github.com/k-nuth/c-api/releases">![Github Releases][badge.release]</a>
 
