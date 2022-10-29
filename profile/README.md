@@ -25,14 +25,14 @@ You can build your own library in the language of your choice on top of our [C l
 ## Releases
 
 Node executable
-
+<img width="200px" src="https://github.com/k-nuth/cs-api/raw/master/docs/images/kth-purple.png" />
 [![Node Release](https://img.shields.io/github/v/release/k-nuth/kth?display_name=tag&style=for-the-badge)](https://github.com/k-nuth/kth)
 
 C++ library
 [![C++ Release](https://img.shields.io/github/v/release/k-nuth/node?display_name=tag&style=for-the-badge)](https://github.com/k-nuth/node)
 
-
-C library <a target="_blank" href="https://github.com/k-nuth/c-api/releases">![Github Releases][badge.release]</a>
+C library 
+[![C Release](https://img.shields.io/github/v/release/k-nuth/c-api?display_name=tag&style=for-the-badge)](https://github.com/k-nuth/c-api)
 
 C# library 
 [![Latest Release](https://img.shields.io/nuget/v/kth-bch?logo=nuget&label=release&style=for-the-badge)](https://www.nuget.org/packages/kth-bch)
@@ -40,7 +40,7 @@ C# library
 Javascript/TypeScript libraries 
 [![NPM Version](https://img.shields.io/npm/v/@knuth/bch?logo=npm&style=for-the-badge)](https://www.npmjs.com/package/@knuth/bch)
 
-Python library <a target="_blank" href="https://github.com/k-nuth/c-api/releases">![Github Releases][badge.release]</a>
+Python library
 [![PyPi Version](https://img.shields.io/pypi/v/kth?logo=npm&style=for-the-badge)](https://pypi.org/project/kth/)
 
 ## Performance matters
