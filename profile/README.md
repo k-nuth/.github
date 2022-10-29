@@ -26,15 +26,15 @@ You can build your own library in the language of your choice on top of our [C l
 
 <img width="50px" src="https://github.com/k-nuth/cs-api/raw/master/docs/images/kth-purple.png" /> <img src="https://img.shields.io/github/v/release/k-nuth/kth?display_name=tag&style=for-the-badge" />
 
-<img alt="C++" src="https://kth.cash/images/libraries/cpp.svg" width="50" height="50" /> <img src="https://img.shields.io/github/v/release/k-nuth/node?display_name=tag&style=for-the-badge" />
+<img alt="C++" src="https://kth.cash/images/libraries/cpp.svg" width="35" height="35" /> <img src="https://img.shields.io/github/v/release/k-nuth/node?display_name=tag&style=for-the-badge" />
 
-<img alt="C" src="https://kth.cash/images/libraries/c.svg" width="50" height="50" /> <img src="https://img.shields.io/github/v/release/k-nuth/c-api?display_name=tag&style=for-the-badge" />
+<img alt="C" src="https://kth.cash/images/libraries/c.svg" width="35" height="35" /> <img src="https://img.shields.io/github/v/release/k-nuth/c-api?display_name=tag&style=for-the-badge" />
 
-<img alt="C#" src="https://kth.cash/images/libraries/csharp.svg" width="50" height="50" /> <img src="[https://img.shields.io/github/v/release/k-nuth/node?display_name=tag&style=for-the-badge](https://img.shields.io/nuget/v/kth-bch?logo=nuget&label=release&style=for-the-badge)" />
+<img alt="C#" src="https://kth.cash/images/libraries/csharp.svg" width="35" height="35" /> <img src="https://img.shields.io/nuget/v/kth-bch?logo=nuget&label=release&style=for-the-badge" />
 
-<img alt="Javascript" src="https://kth.cash/images/libraries/javascript.svg" width="50" height="50" /> <img alt="TypeScript" src="https://kth.cash/images/libraries/typescript.svg" width="50" height="50" /> <img src="https://img.shields.io/npm/v/@knuth/bch?logo=npm&style=for-the-badge" />
+<img alt="Javascript" src="https://kth.cash/images/libraries/javascript.svg" width="35" height="35" /> <img alt="TypeScript" src="https://kth.cash/images/libraries/typescript.svg" width="35" height="35" /> <img src="https://img.shields.io/npm/v/@knuth/bch?logo=npm&style=for-the-badge" />
 
-<img alt="Python" src="https://kth.cash/images/libraries/python.svg" width="50" height="50" /> <img src="https://img.shields.io/pypi/v/kth?logo=npm&style=for-the-badge" />
+<img alt="Python" src="https://kth.cash/images/libraries/python.svg" width="35" height="35" /> <img src="https://img.shields.io/pypi/v/kth?logo=npm&style=for-the-badge" />
 
 ## Performance matters
 
