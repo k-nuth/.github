@@ -45,6 +45,11 @@ $ ./kth
 ## Libraries
 
 
+<!-- <img src="drawing.jpg" alt="drawing" width="200"/> -->
+
+<a href="https://github.com/k-nuth/node"><img alt="C++" src="https://www.qries.com/images/banner_logo.png" width="200" height="200" /></a>
+
+
 [<img src="https://kth.cash/images/libraries/cpp.svg">](https://github.com/k-nuth/node)
 [<img src="https://kth.cash/images/libraries/c.svg">](https://github.com/k-nuth/c-api)
 [<img src="https://kth.cash/images/libraries/csharp.svg">](https://github.com/k-nuth/cs-api)
