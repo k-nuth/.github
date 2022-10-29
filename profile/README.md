@@ -26,7 +26,11 @@ You can build your own library in the language of your choice on top of our [C l
 
 Node executable
 
+[![Node Release](https://img.shields.io/github/v/release/k-nuth/kth?display_name=tag&style=for-the-badge)](https://github.com/k-nuth/kth)
+
 C++ library
+[![C++ Release](https://img.shields.io/github/v/release/k-nuth/node?display_name=tag&style=for-the-badge)](https://github.com/k-nuth/node)
+
 
 C library <a target="_blank" href="https://github.com/k-nuth/c-api/releases">![Github Releases][badge.release]</a>
 
