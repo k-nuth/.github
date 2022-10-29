@@ -28,6 +28,8 @@ You can build your own library in the language of your choice on top of our [C l
 
 [![Node Release](https://img.shields.io/github/v/release/k-nuth/kth?display_name=tag&style=for-the-badge)](https://github.com/k-nuth/kth)
 
+<img src="https://img.shields.io/github/v/release/k-nuth/kth?display_name=tag&style=for-the-badge" />
+
 <img alt="C++" src="https://kth.cash/images/libraries/cpp.svg" width="50" height="50" />
 
 [![C++ Release](https://img.shields.io/github/v/release/k-nuth/node?display_name=tag&style=for-the-badge)](https://github.com/k-nuth/node)
