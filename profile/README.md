@@ -33,10 +33,11 @@ C library <a target="_blank" href="https://github.com/k-nuth/c-api/releases">![G
 C# library 
 [![Latest Release](https://img.shields.io/nuget/v/kth-bch?logo=nuget&label=release&style=for-the-badge)](https://www.nuget.org/packages/kth-bch)
 
-Javascript/TypeScript libraries <a target="_blank" href="https://github.com/k-nuth/c-api/releases">![Github Releases][badge.release]</a>
+Javascript/TypeScript libraries 
+[![NPM Version](https://img.shields.io/npm/v/@knuth/bch?logo=npm&style=for-the-badge)](https://www.npmjs.com/package/@knuth/bch)
 
 Python library <a target="_blank" href="https://github.com/k-nuth/c-api/releases">![Github Releases][badge.release]</a>
-
+[![PyPi Version](https://img.shields.io/pypi/v/kth?logo=npm&style=for-the-badge)](https://pypi.org/project/kth/)
 
 ## Performance matters
 
