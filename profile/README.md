@@ -44,4 +44,5 @@ $ ./kth
 
 ## Libraries
 
-https://kth.cash/images/libraries/cpp.svg
+![C++](https://kth.cash/images/libraries/cpp.svg)
+
