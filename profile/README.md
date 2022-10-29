@@ -44,12 +44,12 @@ $ ./kth
 
 ## Libraries
 
-<a href="https://github.com/k-nuth/node"><img alt="C++" src="https://kth.cash/images/libraries/cpp.svg" width="200" height="200" /></a>
-<a href="https://github.com/k-nuth/c-api"><img alt="C++" src="https://kth.cash/images/libraries/c.svg" width="200" height="200" /></a>
-<a href="https://github.com/k-nuth/cs-api"><img alt="C++" src="https://kth.cash/images/libraries/csharp.svg" width="200" height="200" /></a>
-<a href="https://github.com/k-nuth/js-api"><img alt="C++" src="https://kth.cash/images/libraries/javascript.svg" width="200" height="200" /></a>
-<a href="https://github.com/k-nuth/js-api"><img alt="C++" src="https://kth.cash/images/libraries/typescript.svg" width="200" height="200" /></a>
-<a href="https://github.com/k-nuth/py-api"><img alt="C++" src="https://kth.cash/images/libraries/python.svg" width="200" height="200" /></a>
+<a href="https://github.com/k-nuth/node"><img alt="C++" src="https://kth.cash/images/libraries/cpp.svg" width="150" height="150" /></a>
+<a href="https://github.com/k-nuth/c-api"><img alt="C++" src="https://kth.cash/images/libraries/c.svg" width="150" height="150" /></a>
+<a href="https://github.com/k-nuth/cs-api"><img alt="C++" src="https://kth.cash/images/libraries/csharp.svg" width="150" height="150" /></a>
+<a href="https://github.com/k-nuth/js-api"><img alt="C++" src="https://kth.cash/images/libraries/javascript.svg" width="150" height="150" /></a>
+<a href="https://github.com/k-nuth/js-api"><img alt="C++" src="https://kth.cash/images/libraries/typescript.svg" width="150" height="150" /></a>
+<a href="https://github.com/k-nuth/py-api"><img alt="C++" src="https://kth.cash/images/libraries/python.svg" width="150" height="150" /></a>
 
 
 ## Features
