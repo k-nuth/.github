@@ -1,52 +1,17 @@
-# Knuth node
+# Knuth Project 
 
-Knuth is a high performance implementation of the Bitcoin protocol focused on users requiring extra capacity and resilience. It is a full node software client, but also a development platform. It is designed for:
+> High performance Bitcoin development platform.
 
-- Miners and mining pools running competitive operations.
-- Exchanges in need of dependable full indexation.
-- Companies and businesses with the intention of building applications.
-- Developers who want to take their projects to new levels.
-- Newcomers taking their first steps in the blockchain ecosystem.
+Knuth is a high performance implementation of the Bitcoin protocol focused on users requiring extra performance and flexibility, what makes it the best platform for wallets, exchanges, block explorers and miners.
 
-## Releases
+## Not just a node
 
-Node executable
-C++ Library
-C Library <a target="_blank" href="https://github.com/k-nuth/c-api/releases">![Github Releases][badge.release]</a>
+Knuth is a multi-crypto full node, but it is also a development platform.
 
-## Getting Started
+Knuth's core is written in C++17, on top of it we provide a set of libraries and modules written in various programming languages that you can use as basis for building your application.
 
-Install and run Knuth is very easy, you must follow these instructions.
-
-1. Install and configure the Knuth build helper:
-
-```
-$ pip install kthbuild --user --upgrade
-
-$ conan config install https://github.com/k-nuth/ci-utils/raw/master/conan/config.zip
-
-# Just for Linux
-
-$ conan profile update settings.compiler.libcxx=libstdc++11 default
-```
-
-2. Install the node executable:
-
-```
-$ conan install kth/0.X@kth/stable --update
-```
-
-3. Run the node:
-
-```
-# Initialize the database
-
-$ ./kth -i
-
-# Run the node
-
-$ ./kth
-```
+At the moment we have libraries in the following languages: [C++](https://github.com/k-nuth/node), [C](https://github.com/k-nuth/c-api), [C#](https://github.com/k-nuth/cs-api), [Python](https://github.com/k-nuth/py-api), [Javascript](https://github.com/k-nuth/js-api) and [Golang](https://github.com/k-nuth/go-api).
+You can build your own library in the language of your choice on top of our [C library](https://github.com/k-nuth/c-api).
 
 ## Libraries
 
@@ -57,41 +22,100 @@ $ ./kth
 <a href="https://github.com/k-nuth/js-api"><img alt="C++" src="https://kth.cash/images/libraries/typescript.svg" width="150" height="150" /></a>
 <a href="https://github.com/k-nuth/py-api"><img alt="C++" src="https://kth.cash/images/libraries/python.svg" width="150" height="150" /></a>
 
+## Performance matters
 
-## Features
+We designed Knuth to be a high performance node, so our build system has the ability to automatically detect the microarchitecture of your processor and perform an optimized build for it.
 
-Knuth is characterized by its modular architecture and beautiful code. It has the intention to facilitate adoption and collaboration in the evolution of a diverse ecosystem. We want our code to be interactive, reusable and reliable, easy to read and easy to debug. Some of our features are:
+For those who don't want to wait for compilation times, we provide pre-built binaries compatible with [Intel's Haswell microarchitecture](https://en.wikipedia.org/wiki/Haswell_(microarchitecture)). But you don't have to worry about that, our build system will do everything for you.
 
-### Development platform
+## Modular architecture
 
-Knuth is a full node implementation, but also a development platform. Its core is written in C++. On top of it, several libraries and modules, written in several programming languages, are provided and can be used as a basis for building applications.
+Knuth is based on a modular architecture simple to modify, expand and learn.
 
-### Build system
+Any protocol change can be introduced in Knuth much faster and more efficiently than in reference implementations.
 
-Our build system is designed to automatically detect processors’ microarchitecture and optimize the binary generated at build time.
+## Cross-platform
 
-### Processes and industry standards
+Knuth can be used in any computer architecture and operating system, it only requires a 64-bit system.
 
-Knuth has the best processes and standards available. It is written in C++ and uses libraries such as Abseil, Boost, GMP, ICU, among others. In terms of toolchains, Knuth uses GCC, Clang, MSVC, CMake, Conan, clang-tidy, and clang-format.
+Knuth has been well tested on x86-64 processors and on the following operating systems: FreeBSD, Linux, macOS and Windows. However, it is not limited to these, Knuth can be used in any computer architecture and any operating system, the only requirement is a 64-bit system.
 
-### Cross-Platform
+If you find a problem in any other platform, please [let us know](https://github.com/k-nuth/kth/issues).
 
-Knuth is a cross-platform solution. It can be used in any computer architecture and operating system. It only requires a 64-bit machine. Its code can be compiled and natively used on Linux, Windows, macOS, FreeBSD, and others with no fuzz.
+## Multiple cryptos
 
-### Database modes
+Knuth supports the following cryptocurrencies in the same code base:
+- [Bitcoin Cash (BCH)](https://www.bitcoincash.org/)
+- [Bitcoin (BTC)](https://bitcoin.org/)
+- [Litecoin (LTC)](https://litecoin.org/)
 
-Designed to offer a high level of specialization for particular use cases, Knuth node can be initialized under 3 different database modes at installation time: normal, pruned and full-indexed. An orthogonal read-only mode is provided for scaling capabilities.
+Choosing a cryptocurrency is just as simple as changing a switch in our build system, [take a look here](#getting-started).
 
-### Modularization
+Also, given its modular design and beautiful code, Knuth allows you to implement other cryptocurrencies with very few code changes.
 
-Knuth is built following a completely modular architecture. Each module is a library that can be used independently or together with other libraries. This adds a neat and readable code organization that follows the single-responsibility principle. Any protocol change can be introduced in Knuth much faster and efficiently.
+## Getting started
 
+Install and run Knuth is very easy:
+
+1. Install and configure the Knuth build helper:
+```
+$ pip install kthbuild --user --upgrade
+
+$ conan config install https://github.com/k-nuth/ci-utils/raw/master/conan/config.zip
+
+# Just for Linux
+$ conan profile update settings.compiler.libcxx=libstdc++11 default
+```
+
+2. Install the appropriate node executable:
+
+```
+$ conan install kth/0.X@kth/stable --update
+```
+
+(`0.X` is an alias for our latest uploaded package)
+
+3. Run the node:
+
+```
+$ ./kth
+```
+For more more detailed instructions, please refer to our [documentation](https://k-nuth.github.io/docs/).
 
 ## Donation
 
-Knuth is a community backed project developed. Donations received will be used to subsidize development costs for general maintenance and support of our implementation.
+See [fund.kth.cash](https://fund.kth.cash/) for active Flipstarter campaigns.
 
-Your contributions are greatly appreciated!
-
+Our general donation address is:
 `bitcoincash:qrlgfg2qkj3na2x9k7frvcmv06ljx5xlnuuwx95zfn`
+
+## License
+
+Knuth node is released under the terms of the MIT license. See COPYING for more information or see https://opensource.org/licenses/MIT.
+
+## Issues
+
+Each of our modules has its own Github repository, but in case you want to create an issue, please do so in our [main repository](https://github.com/k-nuth/kth/issues).
+
+## Contact
+
+You can contact us through our [Telegram](https://t.me/knuth_cash) and [Slack](https://k-nuth.slack.com/) groups or write to us at info@kth.cash.
+
+## Security Disclosures
+To report security issues please contact:
+
+Fernando Pelliccioni (fpelliccioni@gmail.com) - GPG Fingerprint: 8C1C 3163 AAE1 0EFA 704C 8A00 FE77 07B7 4C29 E389
+
+<!-- Links -->
+[badge.Travis]: https://travis-ci.org/k-nuth/node-exe.svg?branch=master
+[badge.Appveyor]: https://ci.appveyor.com/api/projects/status/github/k-nuth/node-exe?svg=true&branch=master
+[badge.Cirrus]: https://api.cirrus-ci.com/github/k-nuth/node-exe.svg?branch=master
+[badge.GithubActions]: https://github.com/k-nuth/node-exe/workflows/Build%20and%20Test/badge.svg
+[badge.version]: https://badge.fury.io/gh/k-nuth%2Fkth-node-exe.svg
+[badge.release]: https://img.shields.io/github/release/k-nuth/node-exe.svg
+[badge.cpp]: https://img.shields.io/badge/C++-17-blue.svg?style=flat&logo=c%2B%2B
+[badge.telegram]: https://img.shields.io/badge/telegram-badge-blue.svg?logo=telegram
+[badge.slack]: https://img.shields.io/badge/slack-badge-orange.svg?logo=slack
+
+<!-- [badge.Gitter]: https://img.shields.io/badge/gitter-join%20chat-blue.svg -->
 
