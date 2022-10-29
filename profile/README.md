@@ -44,18 +44,13 @@ $ ./kth
 
 ## Libraries
 
-
-<!-- <img src="drawing.jpg" alt="drawing" width="200"/> -->
-
 <a href="https://github.com/k-nuth/node"><img alt="C++" src="https://kth.cash/images/libraries/cpp.svg" width="200" height="200" /></a>
+<a href="https://github.com/k-nuth/c-api"><img alt="C++" src="https://kth.cash/images/libraries/c.svg" width="200" height="200" /></a>
+<a href="https://github.com/k-nuth/cs-api"><img alt="C++" src="https://kth.cash/images/libraries/csharp.svg" width="200" height="200" /></a>
+<a href="https://github.com/k-nuth/js-api"><img alt="C++" src="https://kth.cash/images/libraries/javascript.svg" width="200" height="200" /></a>
+<a href="https://github.com/k-nuth/js-api"><img alt="C++" src="https://kth.cash/images/libraries/typescript.svg" width="200" height="200" /></a>
+<a href="https://github.com/k-nuth/py-api"><img alt="C++" src="https://kth.cash/images/libraries/python.svg" width="200" height="200" /></a>
 
-
-[<img src="https://kth.cash/images/libraries/cpp.svg">](https://github.com/k-nuth/node)
-[<img src="https://kth.cash/images/libraries/c.svg">](https://github.com/k-nuth/c-api)
-[<img src="https://kth.cash/images/libraries/csharp.svg">](https://github.com/k-nuth/cs-api)
-[<img src="https://kth.cash/images/libraries/javascript.svg">](https://github.com/k-nuth/js-api)
-[<img src="https://kth.cash/images/libraries/typescript.svg">](https://github.com/k-nuth/js-api)
-[<img src="https://kth.cash/images/libraries/python.svg">](https://github.com/k-nuth/js-api)
 
 ## Features
 
