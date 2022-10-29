@@ -10,7 +10,7 @@ Knuth is a multi-crypto full node, but it is also a development platform.
 
 Knuth's core is written in C++17, on top of it we provide a set of libraries and modules written in various programming languages that you can use as basis for building your application.
 
-At the moment we have libraries in the following languages: [C++](https://github.com/k-nuth/node), [C](https://github.com/k-nuth/c-api), [C#](https://github.com/k-nuth/cs-api), [Python](https://github.com/k-nuth/py-api), [Javascript](https://github.com/k-nuth/js-api) and [Golang](https://github.com/k-nuth/go-api).
+At the moment we have libraries in the following languages: [C++](https://github.com/k-nuth/node), [C](https://github.com/k-nuth/c-api), [C#](https://github.com/k-nuth/cs-api), [Python](https://github.com/k-nuth/py-api), [Javascript](https://github.com/k-nuth/js-api) and [TypeScript](https://github.com/k-nuth/js-api).
 You can build your own library in the language of your choice on top of our [C library](https://github.com/k-nuth/c-api).
 
 ## Libraries
