@@ -22,6 +22,21 @@ You can build your own library in the language of your choice on top of our [C l
 <a href="https://github.com/k-nuth/js-api"><img alt="C++" src="https://kth.cash/images/libraries/typescript.svg" width="150" height="150" /></a>
 <a href="https://github.com/k-nuth/py-api"><img alt="C++" src="https://kth.cash/images/libraries/python.svg" width="150" height="150" /></a>
 
+## Releases
+
+Node executable
+
+C++ library
+
+C library <a target="_blank" href="https://github.com/k-nuth/c-api/releases">![Github Releases][badge.release]</a>
+
+C# library <a target="_blank" href="https://github.com/k-nuth/c-api/releases">![Github Releases][badge.release]</a>
+
+Javascript/TypeScript libraries <a target="_blank" href="https://github.com/k-nuth/c-api/releases">![Github Releases][badge.release]</a>
+
+Python library <a target="_blank" href="https://github.com/k-nuth/c-api/releases">![Github Releases][badge.release]</a>
+
+
 ## Performance matters
 
 We designed Knuth to be a high performance node, so our build system has the ability to automatically detect the microarchitecture of your processor and perform an optimized build for it.
@@ -84,10 +99,13 @@ For more more detailed instructions, please refer to our [documentation](https:/
 
 ## Donation
 
-See [fund.kth.cash](https://fund.kth.cash/) for active Flipstarter campaigns.
+Knuth is a community backed project developed. Donations received will be used to subsidize development costs for general maintenance and support of our implementation.
 
-Our general donation address is:
+Your contributions are greatly appreciated!
+
 `bitcoincash:qrlgfg2qkj3na2x9k7frvcmv06ljx5xlnuuwx95zfn`
+
+See [fund.kth.cash](https://fund.kth.cash/) for active Flipstarter campaigns.
 
 ## License
 
