@@ -28,7 +28,7 @@ You can build your own library in the language of your choice on top of our [C l
 
 <img alt="C++" src="https://kth.cash/images/libraries/cpp.svg" width="35" height="35" /> <img src="https://img.shields.io/github/v/release/k-nuth/node?display_name=tag&style=for-the-badge&color=00599C&logo=cplusplus" />
 
-<img alt="C" src="https://kth.cash/images/libraries/c.svg" width="35" height="35" /> <img src="https://img.shields.io/github/v/release/k-nuth/c-api?display_name=tag&style=for-the-badge" />
+<img alt="C" src="https://kth.cash/images/libraries/c.svg" width="35" height="35" /> <img src="https://img.shields.io/github/v/release/k-nuth/c-api?display_name=tag&style=for-the-badge&color=A8B9CC&logo=c" />
 
 <img alt="C#" src="https://kth.cash/images/libraries/csharp.svg" width="35" height="35" /> <img src="https://img.shields.io/nuget/v/kth-bch?logo=nuget&label=release&style=for-the-badge" />
 
