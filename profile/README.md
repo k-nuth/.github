@@ -15,12 +15,12 @@ You can build your own library in the language of your choice on top of our [C l
 
 ## Libraries
 
-<a href="https://github.com/k-nuth/node"><img alt="C++" src="https://kth.cash/images/libraries/cpp.svg" width="150" height="150" /></a>
-<a href="https://github.com/k-nuth/c-api"><img alt="C" src="https://kth.cash/images/libraries/c.svg" width="150" height="150" /></a>
-<a href="https://github.com/k-nuth/cs-api"><img alt="C#" src="https://kth.cash/images/libraries/csharp.svg" width="150" height="150" /></a>
-<a href="https://github.com/k-nuth/js-api"><img alt="Javascript" src="https://kth.cash/images/libraries/javascript.svg" width="150" height="150" /></a>
-<a href="https://github.com/k-nuth/js-api"><img alt="TypeScript" src="https://kth.cash/images/libraries/typescript.svg" width="150" height="150" /></a>
-<a href="https://github.com/k-nuth/py-api"><img alt="Python" src="https://kth.cash/images/libraries/python.svg" width="150" height="150" /></a>
+<a href="https://github.com/k-nuth/node"><img alt="C++" src="https://kth.cash/images/libraries/cpp.svg" width="120" height="120" /></a>
+<a href="https://github.com/k-nuth/c-api"><img alt="C" src="https://kth.cash/images/libraries/c.svg" width="120" height="120" /></a>
+<a href="https://github.com/k-nuth/cs-api"><img alt="C#" src="https://kth.cash/images/libraries/csharp.svg" width="120" height="120" /></a>
+<a href="https://github.com/k-nuth/js-api"><img alt="Javascript" src="https://kth.cash/images/libraries/javascript.svg" width="120" height="120" /></a>
+<a href="https://github.com/k-nuth/js-api"><img alt="TypeScript" src="https://kth.cash/images/libraries/typescript.svg" width="120" height="120" /></a>
+<a href="https://github.com/k-nuth/py-api"><img alt="Python" src="https://kth.cash/images/libraries/python.svg" width="120" height="120" /></a>
 
 ## Releases
 
