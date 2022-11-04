@@ -34,7 +34,7 @@ You can build your own library in the language of your choice on top of our [C l
 
 <img alt="Javascript" src="https://kth.cash/images/libraries/javascript.svg" width="35" height="35" /> <img alt="TypeScript" src="https://kth.cash/images/libraries/typescript.svg" width="35" height="35" /> <img src="https://img.shields.io/npm/v/@knuth/bch?logo=npm&style=for-the-badge" />
 
-<img alt="Python" src="https://kth.cash/images/libraries/python.svg" width="35" height="35" /> <img src="https://img.shields.io/pypi/v/kth?logo=npm&style=for-the-badge" />
+<img alt="Python" src="https://kth.cash/images/libraries/python.svg" width="35" height="35" /> <img src="https://img.shields.io/pypi/v/kth?logo=pypi&style=for-the-badge" />
 
 ## Performance matters
 
