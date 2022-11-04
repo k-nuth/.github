@@ -24,7 +24,7 @@ You can build your own library in the language of your choice on top of our [C l
 
 ## Releases
 
-<img width="50px" src="https://github.com/k-nuth/cs-api/raw/master/docs/images/kth-purple.png" /> <img src="https://img.shields.io/github/v/release/k-nuth/kth?display_name=tag&style=for-the-badge" />
+<img width="50px" src="https://github.com/k-nuth/cs-api/raw/master/docs/images/kth-purple.png" /> <img src="https://img.shields.io/github/v/release/k-nuth/kth?display_name=tag&style=for-the-badge&color=3b009b&logo=bitcoincash" />
 
 <img alt="C++" src="https://kth.cash/images/libraries/cpp.svg" width="35" height="35" /> <img src="https://img.shields.io/github/v/release/k-nuth/node?display_name=tag&style=for-the-badge&color=00599C&logo=cplusplus" />
 
