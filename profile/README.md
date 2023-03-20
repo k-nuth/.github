@@ -78,7 +78,7 @@ $ conan install --requires=kth/0.33.0 --update --deploy=direct_deploy
 3. Run the node:
 
 ```
-$ ./kth
+$ ./kth/bin/kth
 ```
 For more more detailed instructions, please refer to our [documentation](https://k-nuth.github.io/docs/).
 
