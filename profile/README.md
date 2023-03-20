@@ -64,16 +64,13 @@ Install and run Knuth is very easy:
 ```
 $ pip install kthbuild --user --upgrade
 
-$ conan config install https://github.com/k-nuth/ci-utils/raw/master/conan/config.zip
-
-# Just for Linux
-$ conan profile update settings.compiler.libcxx=libstdc++11 default
+$ conan config install https://github.com/k-nuth/ci-utils/raw/master/conan/config2023.zip
 ```
 
 2. Install the appropriate node executable:
 
 ```
-$ conan install kth/0.X@kth/stable --update
+$ conan install --requires=kth/0.33.0 --update --deploy=direct_deploy
 ```
 
 (`0.X` is an alias for our latest uploaded package)
