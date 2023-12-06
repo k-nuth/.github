@@ -10,16 +10,17 @@ Knuth is a multi-crypto full node, but it is also a development platform.
 
 Knuth's core is written in C++20, on top of it we provide a set of libraries and modules written in various programming languages that you can use as basis for building your application.
 
-At the moment we have libraries in the following languages: [C++](https://github.com/k-nuth/node), [C](https://github.com/k-nuth/c-api), [C#](https://github.com/k-nuth/cs-api), [Python](https://github.com/k-nuth/py-api), [Javascript](https://github.com/k-nuth/js-api) and [TypeScript](https://github.com/k-nuth/js-api).
+At the moment we have libraries in the following languages: [C++](https://github.com/k-nuth/node), [C](https://github.com/k-nuth/c-api), [Javascript](https://github.com/k-nuth/js-api), [TypeScript](https://github.com/k-nuth/js-api), [JS/TS WebAssembly](https://github.com/k-nuth/js-wasm), [C#](https://github.com/k-nuth/cs-api) and [Python](https://github.com/k-nuth/py-api).
 You can build your own library in the language of your choice on top of our [C library](https://github.com/k-nuth/c-api).
 
 ## Libraries
 
 <a href="https://github.com/k-nuth/node"><img alt="C++" src="https://kth.cash/images/libraries/cpp.svg" width="120" height="120" /></a>
 <a href="https://github.com/k-nuth/c-api"><img alt="C" src="https://kth.cash/images/libraries/c.svg" width="120" height="120" /></a>
-<a href="https://github.com/k-nuth/cs-api"><img alt="C#" src="https://kth.cash/images/libraries/csharp.svg" width="120" height="120" /></a>
 <a href="https://github.com/k-nuth/js-api"><img alt="Javascript" src="https://kth.cash/images/libraries/javascript.svg" width="120" height="120" /></a>
 <a href="https://github.com/k-nuth/js-api"><img alt="TypeScript" src="https://kth.cash/images/libraries/typescript.svg" width="120" height="120" /></a>
+<a href="https://github.com/k-nuth/js-wasm"><img alt="JS/TS WebAssembly" src="https://kth.cash/images/libraries/wasm.svg" width="120" height="120" /></a>
+<a href="https://github.com/k-nuth/cs-api"><img alt="C#" src="https://kth.cash/images/libraries/csharp.svg" width="120" height="120" /></a>
 <a href="https://github.com/k-nuth/py-api"><img alt="Python" src="https://kth.cash/images/libraries/python.svg" width="120" height="120" /></a>
 
 ## Releases
@@ -30,9 +31,11 @@ You can build your own library in the language of your choice on top of our [C l
 
 <img alt="C" src="https://kth.cash/images/libraries/c.svg" width="35" height="35" /> <img src="https://img.shields.io/github/v/release/k-nuth/c-api?display_name=tag&style=for-the-badge&color=A8B9CC&logo=c" />
 
-<img alt="C#" src="https://kth.cash/images/libraries/csharp.svg" width="35" height="35" /> <img src="https://img.shields.io/nuget/v/kth-bch?logo=nuget&label=release&style=for-the-badge" />
-
 <img alt="Javascript" src="https://kth.cash/images/libraries/javascript.svg" width="35" height="35" /> <img alt="TypeScript" src="https://kth.cash/images/libraries/typescript.svg" width="35" height="35" /> <img src="https://img.shields.io/npm/v/@knuth/bch?logo=npm&style=for-the-badge" />
+
+<img alt="JS/TS WebAssembly" src="https://kth.cash/images/libraries/wasm" width="35" height="35" /> <img src="https://img.shields.io/npm/v/@knuth/js-wasm?logo=npm&style=for-the-badge" />
+
+<img alt="C#" src="https://kth.cash/images/libraries/csharp.svg" width="35" height="35" /> <img src="https://img.shields.io/nuget/v/kth-bch?logo=nuget&label=release&style=for-the-badge" />
 
 <img alt="Python" src="https://kth.cash/images/libraries/python.svg" width="35" height="35" /> <img src="https://img.shields.io/pypi/v/kth?logo=python&style=for-the-badge&color=3776AB" />
 
