@@ -33,7 +33,7 @@ You can build your own library in the language of your choice on top of our [C l
 
 <img alt="Javascript" src="https://kth.cash/images/libraries/javascript.svg" width="35" height="35" /> <img alt="TypeScript" src="https://kth.cash/images/libraries/typescript.svg" width="35" height="35" /> <img src="https://img.shields.io/npm/v/@knuth/bch?logo=npm&style=for-the-badge" />
 
-<img alt="JS/TS WebAssembly" src="https://kth.cash/images/libraries/wasm" width="35" height="35" /> <img src="https://img.shields.io/npm/v/@knuth/js-wasm?logo=npm&style=for-the-badge" />
+<img alt="JS/TS WebAssembly" src="https://kth.cash/images/libraries/wasm.svg" width="35" height="35" /> <img src="https://img.shields.io/npm/v/@knuth/js-wasm?logo=npm&style=for-the-badge" />
 
 <img alt="C#" src="https://kth.cash/images/libraries/csharp.svg" width="35" height="35" /> <img src="https://img.shields.io/nuget/v/kth-bch?logo=nuget&label=release&style=for-the-badge" />
 
