@@ -25,7 +25,7 @@ You can build your own library in the language of your choice on top of our [C l
 
 ## Releases
 
-<img width="50px" src="https://github.com/k-nuth/cs-api/raw/master/docs/images/kth-purple.png" /> <img src="https://img.shields.io/github/v/release/k-nuth/kth?display_name=tag&style=for-the-badge&color=3b009b&logo=bitcoincash" />
+<img width="50px" src="https://github.com/k-nuth/cs-api/raw/master/docs/images/kth-purple.png" /> <img src="https://img.shields.io/github/v/release/k-nuth/node-exe?display_name=tag&style=for-the-badge&color=3b009b&logo=bitcoincash" />
 
 <img alt="C++" src="https://kth.cash/images/libraries/cpp.svg" width="35" height="35" /> <img src="https://img.shields.io/github/v/release/k-nuth/node?display_name=tag&style=for-the-badge&color=00599C&logo=cplusplus" />
 
@@ -73,7 +73,7 @@ $ conan config install https://github.com/k-nuth/ci-utils/raw/master/conan/confi
 2. Install the appropriate node executable:
 
 ```
-$ conan install --requires=kth/0.38.0 --update --deployer=direct_deploy
+$ conan install --requires=kth/0.42.0 --update --deployer=direct_deploy
 ```
 
 3. Run the node:
